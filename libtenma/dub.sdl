@@ -1,0 +1,10 @@
+name "libtenma"
+dependency "onyx-serial" version="~>0.5.2"
+targetType "library"
+targetName "tenma"
+configuration "library" {
+	targetType "library"
+}
+configuration "unittest" {
+    dependency "silly" version="~>1.0.2"
+}

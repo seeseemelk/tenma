@@ -1,0 +1,4 @@
+name "tenma-cli"
+targetType "executable"
+targetName "tenma"
+dependency "tenma:libtenma" version="*"

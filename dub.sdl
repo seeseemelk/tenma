@@ -1,0 +1,10 @@
+name "tenma"
+description "A utility to control TENMA power supplies"
+authors "seeseemelk"
+copyright "Copyright © 2020, seeseemelk"
+license "GPL-3.0"
+targetType "none"
+
+subPackage "./libtenma"
+subPackage "./tenma-cli"
+subPackage "./tenma-web"
